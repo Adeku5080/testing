@@ -1,0 +1,132 @@
+.container {
+  min-height: 670px;
+  width: 100vw;
+  border: 1px solid #fff;
+  background-image: url("../../../public/svg/banner-img.svg");
+  background-repeat: no-repeat;
+  background-position: 45% center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width: 760px) {
+    width: 100vw;
+    min-height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .content {
+
+    margin-right: 94px;
+    @media (max-width: 760px) {
+      margin-right: 0px;
+ 
+    }
+
+    .text {
+       width: 575px;
+
+       @media(max-width:780px){
+        width: 0px;
+       }
+      p {
+        font-family: Source Sans Pro;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+
+        @media (max-width: 760px) {
+          font-family: Source Sans Pro;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          width: 194px;
+        }
+
+        span {
+          color: #10217d;
+          font-family: Source Sans Pro;
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px;
+          background: #01d6b2;
+
+          @media (max-width: 760px) {
+            font-family: Source Sans Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .subtext {
+      margin-top: 91px;
+      margin-left: 22px;
+
+      @media (max-width: 760px) {
+        margin-top: 20px;
+        margin-left: 12px;
+
+      }
+
+      P {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        color: var(--black-800, #251f1f);
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+
+        @media (max-width: 780px) {
+          color: var(--black-800, #251f1f);
+          text-align: center;
+          font-family: Source Sans Pro;
+          font-size: 8px;
+          font-style: normal;
+          width: 218px;
+          font-weight: 70;
+          line-height: 15px;
+        }
+      }
+      .last_text {
+        color: var(--black-800, #251f1f);
+        text-align: center;
+        font-family: Source Sans Pro;
+        display: flex;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 45px;
+
+        @media (max-width: 760px) {
+          color: var(--black-800, #251f1f);
+          text-align: center;
+          font-family: Source Sans Pro;
+          font-size: 8px;
+          font-style: normal;
+          font-weight: 70;
+        }
+      }
+    }
+
+    .input {
+      padding-left: 80px;
+
+
+      @media (max-width: 760px) {
+     padding-left: 0px;      }
+    }
+  }
+}

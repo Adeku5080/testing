@@ -1,0 +1,106 @@
+.financing {
+  max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    gap: 70px;
+    // justify-content: space-between;
+
+
+  @media (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .pc_img {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    @media (max-width: 780px) {
+      margin-left: 90px;
+
+    }
+
+    img {
+       width:100%
+    }
+
+ 
+  }
+
+  .text_section {
+       width: 50%;
+
+    .title {
+      color: #251f1f;
+      font-family: Source Sans Pro;
+      font-size: 66px;
+      font-weight: 700;
+      line-height: 72px;
+
+      @media (max-width: 780px) {
+        color: #251f1f;
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      span {
+        color: #10217d;
+        font-family: Source Sans Pro;
+        font-size: 66px;
+        font-weight: 700;
+        line-height: 72px;
+
+        @media (max-width: 780px) {
+          color: #10217d;
+          font-family: Source Sans Pro;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .subtext {
+      color: #000;
+      font-family: Source Sans Pro;
+      font-size: 30px;
+     font-weight: 700;
+      line-height: 60px;
+
+      @media (max-width: 780px) {
+        font-family: Source Sans Pro;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+section{
+position: relative;
+
+.leaf_img {
+    position: absolute;
+
+    @media (max-width: 760px) {
+      display: none;
+    }
+
+    img {
+      width: 42%;
+      height: 100%;
+    }
+  }
+
+}
+
+    

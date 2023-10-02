@@ -1,0 +1,44 @@
+.home{
+    position: relative;
+
+.home_leaf{
+    display: none;
+    @media(max-width:780px){
+    position: absolute;
+        width: 200px;
+        height: 500px;
+        bottom: 42%;
+        display: block;
+    }
+
+
+
+img{
+  width: 70%;
+  height: 100%;
+}
+}
+
+.community_leaf {
+    position: absolute;
+        width: 200px;
+        height: 300px;
+        bottom: 13%;
+        right: 0;
+
+    @media(max-width:780px) {
+        position: absolute;
+        width: 200px;
+        height: 2   00px;
+        bottom: 15%;
+        right:0;
+    }
+
+
+
+    img {
+        width: 70%;
+        height: 100%;
+    }
+}
+}

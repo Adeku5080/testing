@@ -1,0 +1,132 @@
+.container {
+  width: 100vw;
+  height: 156px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 760px) {
+    height: 68px;
+    width: 100vw;
+    // border: 1px solid red;
+    overflow-x: hidden;
+    justify-content: flex-end;
+  }
+
+  .name {
+    width: 193px;
+    height: 137px;
+    border: 2px solid rgba(12, 13, 13, 0.5);
+    background: #fff;
+    margin-left: 59px;
+    margin-top: 59px;
+
+    @media (max-width: 760px) {
+      display: none;
+    }
+
+    img {
+      margin-top: 59px;
+    }
+  }
+
+  .nav {
+    display: flex;
+    @media (max-width: 760px) {
+      display: flex;
+    }
+
+    .list {
+      display: flex;
+      align-items: center;
+      margin-top: 93px;
+      margin-right: 66px;
+      // border: 1px solid green;
+
+      @media (max-width: 760px) {
+        margin-top: 29px;
+        margin-right: 120px;
+      }
+
+      li {
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .home {
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        height: 48px;
+        width: 93px;
+        color: black;
+        border-radius: 8px;
+        margin-left: 30px;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 780px) {
+          color: var(--black-800, #251F1F);
+            font-family: Source Sans Pro;
+            font-size: 8px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            height: 0px;
+            padding: 10px;
+        }
+      }
+
+      .contact {
+        background: rgba(16, 33, 125, 1);
+        height: 48px;
+        width: 93px;
+        display: flex;
+        align-items: center;
+        color: #f6f6f6;
+        border-radius: 8px;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 760px) {
+         padding: 15px;
+        color: var(--white, #F6F6F6);
+          font-family: Source Sans Pro;
+          font-size: 8px;
+          font-style: normal;
+          font-weight: 600;
+          height: 0px;
+          line-height: 24px;
+          margin-left: 14.5px;
+        }
+      }
+    }
+    .logo {
+      margin-right: 65px;
+      // z-index: 10;
+      margin-top: 18px;
+
+      @media (max-width: 760px) {
+        // padding-top: 3px;
+        position: absolute; 
+        right: 0;
+        
+        margin-right: 0;
+        margin-top: 0;
+        padding-top: 3px;
+        // padding-right: 18px;
+
+      }
+
+      img {
+        @media (max-width: 760px) {
+          height: 100px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
